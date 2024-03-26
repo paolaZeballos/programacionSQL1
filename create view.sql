@@ -1,0 +1,3 @@
+-- USE `bd_almacen`; create view vista_categoria as select estado *from bd_almacen.tb_categoria; 
+-- use bd_almacen; create view estado_categoria as select estado from bd_almacen.tb_categoria;
+-- select * from estado_categoria; asi se consulta la vista

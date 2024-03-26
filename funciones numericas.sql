@@ -1,0 +1,18 @@
+-- funciones numericas
+-- select round(452.523+453.269, 0); permite redondear el numero. se indica el valor de cantidad de decimales despues de la coma.
+-- select count(estado) from bd_almacen.tb_unidad_medida; cuenta la cantidad de registros en un campo.
+-- select max(codigo_um) from bd_almacen.tb_unidad_medida; busca el valor max dentro de un campo.
+-- select min(codigo_um) from bd_almacen.tb_unidad_medida; busca el valor min dentro de un campo.
+-- select sum(codigo_um) from bd_almacen.tb_unidad_medida; suma los registros num de un campo.
+
+-- funcion fecha
+-- select curdate(); da la fecha actual configurada en el sistema de pc.
+-- select curtime(); da la hs del sistema
+-- select current_timestamp(); da la fecha y hs actual del sistenma
+                -- consultas
+-- select current_user(); dice el usuario conectado y desde donde.
+-- select date(current_timestamp()); si tengo fecha y hora con esta funcion puedo consultar y extraer solo la fecha.
+-- select time(current_timestamp());si tengo fecha y hora con esta funcion puedo consultar y extraer solo la hs
+-- select year(curdate());consulta dentro de la fecha el año
+-- select month(curdate());-- consulta dentro de la fecha el mes 
+-- select day(curdate());-- consulta dentro de la fecha el dia

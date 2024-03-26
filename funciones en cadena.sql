@@ -1,0 +1,12 @@
+-- funciones string o de cadena
+-- select concat ('feli','pao');
+-- select left ( 'paola', 3); da por resultado los 3 caracteres d ela izq o sea PAO
+-- select right ('paola zeballos',8); da por resultado los 8 caracteres de la derecha o sea zeballos
+-- select length('paola zeballos'); cuenta los caracteres incluido los espacios. el resultado es 14
+-- select  trim(    'pao'   ); elimina los espacios inicial y final del contenido
+-- select ltrim (    'pao'); elimina solo el espacio inicial
+-- select rtrim ('pao'    ); elimina solo el espacio final
+-- select upper('paola'); convierte a mayuscula el texto indicado
+-- select lower('PAO'); convierte el texto a minuscula
+-- select substring( 'paola zeballos', 7, 4); indico contenido, desde donde inicia a contar y cuantos caracteres. resultado zeba
+-- select locate ('z', 'paola zeballos'); resultado es z esta en el caracter 7. busca lo indicado y da el resultado de la ubicacion.

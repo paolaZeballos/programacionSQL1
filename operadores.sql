@@ -1,0 +1,21 @@
+-- operadores aritmeticos
+ -- select 5+5;
+ -- select 5-3;
+ -- select 5*3;
+ -- select 5/3; da resultado con num decimales
+ -- select 5 div 3; se usa para resultado con num entero
+ -- select 5 % 2;
+ -- select 5 mod 2; resultado 1 me da el sobrante de la div 
+ -- operadores de comparacion
+ -- select 1=1; true or 1
+ -- select 1=2; false or 0
+ -- select 6 < 4; F
+ -- select 6> 4; 1 T
+ -- select 10!= 8; 
+ -- select 'ana' != 'ana';
+ 
+ -- operadores logicos AND && - OR ||- NOT !
+  -- select (1=1) and (5>2); da como resultado 1 true, solo es T si hay concidencias en todas las operaciones si una sola false sera F.
+ -- select 0 or 1; es 1 true basta que solo un valor sea verdadero.
+ -- select not (1=1); da resultado F. invierte el resultado si es T lo cambia a F. 
+ 
