@@ -18,4 +18,6 @@ else descripcion_um
 end )
 from tb_unidad_medida;
 
+-- prueba
+
 
